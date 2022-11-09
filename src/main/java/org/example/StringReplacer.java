@@ -15,4 +15,12 @@ public class StringReplacer implements StringTransformer {
 
         drink.setText(nText);
     }
+
+    @Override
+    public void undo(StringDrink drink) {
+        String text = drink.getText();
+        String nText = text.replace(after, before);
+
+        drink.setText(nText);
+    }
 }
