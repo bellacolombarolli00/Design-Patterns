@@ -11,14 +11,8 @@ public class StringReplacer implements StringTransformer {
     @Override
     public void execute(StringDrink drink) {
         String text = drink.getText();
-        String nText = "";
-        for (int i = 0; i<text.length(); i++){
-            if(text.charAt(i)==before){
-                nText = nText + after;
-            }else{
-                nText = nText + text.charAt(i);
-            }
-        }
+        String nText = text.replace(before, after);
+
         drink.setText(nText);
     }
 }

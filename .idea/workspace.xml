@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="adfc52d2-fb6a-407b-a2ba-0dcbf8ae889e" name="Changes" comment="Case Changer implemented">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/StringReplacer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StringDrinkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StringDrinkTest.java" afterDir="false" />
+    <list default="true" id="adfc52d2-fb6a-407b-a2ba-0dcbf8ae889e" name="Changes" comment="replace first solution">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/StringReplacer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/StringReplacer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667987557490</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="replace first solution">
+      <created>1667988650631</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667988650631</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -127,7 +132,8 @@
     <MESSAGE value="until reverse first solution" />
     <MESSAGE value="until reverse with string builder" />
     <MESSAGE value="Case Changer implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="Case Changer implemented" />
+    <MESSAGE value="replace first solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="replace first solution" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Design_Patterns_Project$Tests_in__Design_Patterns_Project_test_.ic" NAME="Tests in 'Design-Patterns-Project.test' Coverage Results" MODIFIED="1667988521704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
