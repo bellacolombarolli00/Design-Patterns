@@ -4,10 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="adfc52d2-fb6a-407b-a2ba-0dcbf8ae889e" name="Changes" comment="&quot;undo&quot; implemented">
-      <change afterPath="$PROJECT_DIR$/src/main/java/StringTransformerGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Bar.java" afterDir="false" />
+    <list default="true" id="adfc52d2-fb6a-407b-a2ba-0dcbf8ae889e" name="Changes" comment="abstract class Bar created">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/BarObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/StringBar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/StringTransformerGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BarTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StringTransformerGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Bar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Bar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/StringTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/StringTransformer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/StringDrinkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StringDrinkTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +49,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.39770114"
@@ -162,7 +170,21 @@
       <option name="project" value="LOCAL" />
       <updated>1668011285648</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="StringTransformerGroup done">
+      <created>1668079418749</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1668079418749</updated>
+    </task>
+    <task id="LOCAL-00009" summary="abstract class Bar created">
+      <created>1668079448587</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1668079448587</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,7 +206,9 @@
     <MESSAGE value="replace using String.replace(char, char)" />
     <MESSAGE value="String recipe done" />
     <MESSAGE value="&quot;undo&quot; implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;undo&quot; implemented" />
+    <MESSAGE value="StringTransformerGroup done" />
+    <MESSAGE value="abstract class Bar created" />
+    <option name="LAST_COMMIT_MESSAGE" value="abstract class Bar created" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Design_Patterns_Project$Tests_in__Design_Patterns_Project_test_.ic" NAME="Tests in 'Design-Patterns-Project.test' Coverage Results" MODIFIED="1667988521704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
